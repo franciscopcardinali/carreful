@@ -2,6 +2,8 @@ import streamlit as st
 from model import ProductoModel
 from controller import SupermercadoController
 
+st.set_page_config(page_title="Carreful", page_icon="🛒")
+
 st.set_page_config(
     page_title="Carreful - Panel Familiar",
     page_icon="🛒",
